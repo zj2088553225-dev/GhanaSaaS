@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /gc-control-7x/
+Disallow: /login
+Disallow: /store-login
+Disallow: /login
+Disallow: /register
+Disallow: /forgot-password
+Disallow: /reset-password
+Disallow: /account
+Disallow: /register
+Disallow: /cart
+Disallow: /checkout
+Disallow: /my-orders
+Disallow: /orders
+Disallow: /order-success
+Disallow: /under-construction
+Disallow: /reservations/mine
+Disallow: /en/reservations/mine
+Disallow: /zh/reservations/mine
+
+Sitemap: https://www.ghanachinatown.com/sitemap.xml

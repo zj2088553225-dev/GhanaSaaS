@@ -1,0 +1,53 @@
+# Go build artifacts
+/api
+/seeder
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.bin
+
+# Coverage and profiling
+coverage.out
+coverage.html
+*.coverprofile
+*.prof
+
+# Local environment and config snapshots
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+*.local.*
+configs/*.local.yaml
+configs/*.local.yml
+configs/*.bak
+configs/*.backup
+configs/*~
+
+# Editor and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Frontend dependencies and build output
+node_modules/
+saas-web/node_modules/
+saas-web/dist/
+
+# User uploaded files
+uploads/
+
+# Production deployment state and database backups
+.deploy/
+backups/

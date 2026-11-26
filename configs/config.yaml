@@ -1,0 +1,24 @@
+app_env: "development"
+
+server:
+  port: "8081"
+
+jwt:
+  secret: "change-me-in-production"
+  expire_duration: "24h"
+
+openapi:
+  legacy_signature_enabled: false
+
+database:
+  host: "localhost"
+  port: "5432"
+  user: "postgres"
+  password: "your_password"
+  dbname: "saas_db"
+  timezone: "UTC"
+  max_idle_conns: 10
+  max_open_conns: 100
+
+reservation:
+  mode: "disabled"
